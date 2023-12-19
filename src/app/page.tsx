@@ -6,19 +6,19 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center space-x-48 p-24">
       <div className="flex flex-col">
-        <h1 className="text-4xl font-bold">欢迎加入科学家的队伍</h1>
-        <p className="text-xs mt-2 text-gray-400">进群免费领工具</p>
+        <h1 className="text-4xl font-bold">叼毛社区已审核 主打一个安全小心</h1>
+        <p className="text-xs mt-2 text-gray-400"></p>
         <Image src="/shareQrcode.jpeg" width={360} alt="" height={400} />
         <div className="flex justify-center mb-2">
           <Link
-            href={`https://twitter.com/InscriptionBot`}
+            href={``}
             target="_blank"
             className="flex items-center justify-center"
           >
             <svg
               className="w-6 h-6 mr-2"
               aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns=""
               fill="none"
               viewBox="0 0 20 20"
             >
@@ -31,8 +31,8 @@ export default function Home() {
           <Link href={`https://t.me/+hYSsEN9xutMwZTRl`} className="w-6 h-6" target="_blank">
             <svg
               viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
+              xmlns=""
+              xmlnsXlink=""
             >
               <linearGradient
                 id="a"
@@ -71,14 +71,14 @@ export default function Home() {
           </Link>
         </div>
         <Link
-          href={`https://github.com/BohengLiu/sei20-super-minter`}
+          href={``}
           target="_blank"
           className="flex items-center justify-center"
         >
           <svg
             className="w-6 h-6 text-gray-800 mr-2"
             aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns=""
             fill="currentColor"
             viewBox="0 0 20 20"
           >
@@ -88,7 +88,7 @@ export default function Home() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="underline">开源安全可直接下载代码</span>
+          <span className="underline"></span>
         </Link>
       </div>
       <Minter />
