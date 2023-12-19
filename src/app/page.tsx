@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center space-x-48 p-24">
       <div className="flex flex-col">
-        <h1 className="text-4xl font-bold">叼毛 叼毛 叼毛</h1>
+        <h1 className="text-4xl font-bold">主打一个安全</h1>
         <p className="text-xs mt-2 text-gray-400"></p>
         <Image src="/shareQrcode.jpeg" width={360} alt="" height={400} />
         <div className="flex justify-center mb-2">
@@ -15,7 +15,12 @@ export default function Home() {
             target="_blank"
             className="flex items-center justify-center"
           >
-            
+            <svg
+              className=""
+              aria-hidden="true"
+              xmlns=""
+              fill=""
+              viewBox="0 0 20 20"
             >
               <path
                 fill="currentColor"
@@ -23,8 +28,11 @@ export default function Home() {
               />
             </svg>
           </Link>
-          <Link href={``} className="w-6 h-6" target="_blank">
-           
+          <Link href={``} className="">
+            <svg
+              viewBox="0 0 16 16"
+              xmlns=""
+              xmlnsXlink=""
             >
               <linearGradient
                 id="a"
@@ -67,7 +75,12 @@ export default function Home() {
           target="_blank"
           className="flex items-center justify-center"
         >
-          
+          <svg
+            className=""
+            aria-hidden="true"
+            xmlns=""
+            fill=""
+            viewBox="0 0 20 20"
           >
             <path
               fillRule="evenodd"
